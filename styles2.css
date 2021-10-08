@@ -59,7 +59,7 @@ button:hover {
   cursor: pointer;
 }
 button{
-  background-color: rgb(183, 117, 245);
+  background-color: rgb(130, 117, 245);
   border-color: royalblue;
   border-radius: 25%;
 }
@@ -89,5 +89,12 @@ body {
   font-weight: bold;
   font-size: 50px;
   color: white;
+}
+
+hr.rounded {
+  border-top: 8px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-right: 21%;
 }
 </style>
