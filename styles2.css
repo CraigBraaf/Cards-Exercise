@@ -17,14 +17,15 @@ body {
   border-radius: 5px;
   margin: 2%;
   grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(255, 255, 255);
 }
 
 .image img {
   width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+  height: 300px;
 }
-
 .title {
   text-align: center;
   padding: 10px;
@@ -58,7 +59,7 @@ button:hover {
   cursor: pointer;
 }
 button{
-  background-color: rgb(241, 66, 241);
+  background-color: rgb(183, 117, 245);
   border-color: royalblue;
   border-radius: 25%;
 }
@@ -73,5 +74,20 @@ button{
 
 .joburg {
   margin-top: 18px;
+}
+
+
+
+body {
+  background-image: url("https://thumbs.dreamstime.com/b/commercial-airplane-flying-above-clouds-clear-blue-sky-over-beautiful-scenery-nature-background-concept-business-travel-110501753.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
 }
 </style>
